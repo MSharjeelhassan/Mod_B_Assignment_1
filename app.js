@@ -127,7 +127,7 @@ model.addEventListener("change", () => {
   console.log(SelectedModelKeys);
   let SelectedModelValues = Object.values(aMobile[brand.value][SelectedModel]);
   console.log(SelectedModelValues);
-//   console.log(SelectedModelKeys.length);
+  console.log(SelectedModelKeys);
 render.innerHTML = "";
   for (let i = 0; i < SelectedModelKeys.length; i++) {
     render.innerHTML += `<div class=" border d-flex justify-content-around text-primary my-2">
